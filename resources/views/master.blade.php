@@ -32,7 +32,7 @@
 	<link id="color-scheme" href="{{asset('metromini/docs/metro/css/schemes/sky-net.css')}}" rel="stylesheet">
 	<link href="{{asset('metromini/docs/metro/css/third-party/datatables.css?ver=@@b-version')}}" rel="stylesheet">
 
-	<title>Schemes demo - Metro 4 :: Popular HTML, CSS and JS library</title>
+	<title>Point Of Sale</title>
 
 	<style>
 	h2 {
