@@ -155,12 +155,12 @@
 
 					<li class="item-header"></li>
 					@if($link == "master" || $link == "masteruseredit")
-					<li>
+					<!-- <li>
 						<a href="{{route('toko.all')}}">
 							<span class="icon"><span class="mif-home fg-blue"></span></span>
 							<span class="caption">Informasi Toko</span>
 						</a>
-					</li>
+					</li> -->
 					<li class="active">
 						<a href="{{route('user.all')}}">
 							<span class="icon"><span class="mif-users fg-blue"></span></span>
@@ -256,6 +256,6 @@
 			}
 		}
 	</script>
-	<!-- ads-script -->
+	<!-- ads-script
 </body>
-</html>
+</html> -->

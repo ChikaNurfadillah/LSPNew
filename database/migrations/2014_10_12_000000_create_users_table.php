@@ -26,20 +26,20 @@ class CreateUsersTable extends Migration
         });
 
         DB::table('users')->insert([
-            'name' => "Teknosop Admin",
+            'name' => "Admin",
             'email' => "admin@gmail.com",
             'password' => Hash::make("888888"),
             'akses' => "Admin"
         ]);
 
         DB::table('users')->insert([
-            'name' => "Teknosop SuperAdmin",
+            'name' => "SuperAdmin",
             'email' => "superadmin@gmail.com",
             'password' => Hash::make("888888"),
             'akses' => "SuperAdmin"
         ]);
         DB::table('users')->insert([
-            'name' => "Teknosop Kasir",
+            'name' => "Kasir",
             'email' => "kasir@gmail.com",
             'password' => Hash::make("888888"),
             'akses' => "Kasir"

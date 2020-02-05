@@ -2,7 +2,7 @@
 @section('content')
 <div class="container py-6">
 	<!-- START MODAL -->
-	<h3 class="text-center">Data Toko</h3>
+	<h3 class="text-center">Data User</h3>
 	<div id="d-tambahToko" class="dialog" data-role="dialog">
 		<div class="dialog-header">
 			<div class="dialog-title text-center">Tambah User</div>

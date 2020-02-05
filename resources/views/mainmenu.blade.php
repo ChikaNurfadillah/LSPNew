@@ -50,7 +50,7 @@
             <div class="tiles-grid tiles-group size-2 fg-white">
                 @if(Auth::user()->akses == "SuperAdmin")
                 <div data-role="tile" data-size="wide" data-effect="animate-slide-left" style=" margin-left: 210px;">
-                    <a href="{{route('toko.all')}}" data-role="tile" class="slide bg-indigo fg-white">
+                    <a href="{{route('user.all')}}" data-role="tile" class="slide bg-indigo fg-white">
                         <div data-role="tile" class="bg-cyan fg-white" data-size="wide">
                             <span class="mif-table icon fg-yellow"></span>
                             <span class="branding-bar">Master</span>
@@ -62,7 +62,7 @@
                 @if(Auth::user()->akses == "SuperAdmin")
                 <div data-role="tile" data-size="wide" data-effect="animate-slide-left" style="margin-left: 210px;">
                     <a href="{{route('pos.index')}}" data-role="tile" class="slide bg-indigo fg-white">
-                        <div data-role="tile" class="bg-orange fg-white" data-size="wide">
+                        <div data-role="tile" class="bg-red fg-white" data-size="wide">
                             <span class="mif-cart icon fg-yellow"></span>
                             <span class="branding-bar">Point Of Sale</span>
                             <span class="badge-bottom mb-2">{{$totalpos}}</span>
